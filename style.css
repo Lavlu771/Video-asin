@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+.header {
+    background: #3498db;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float:right
+}
+.header-logo img {
+    width: 80px;
+}
+.primary-menu {}
+
+.primary-menu ul {
+    margin-bottom: -5px;
+    text-align: right;
+}
+.primary-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 0 10px;
+    line-height: 80px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+.primary-menu ul li a:hover {
+    background-color: #2980b9;
+}
+.banner {
+    background-image: url(https://i.ibb.co/pXYjZ7r/unnamed.jpg);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+.about{
+    background: #ecf0f1;
+}
+.service{
+    background: #f9f9f9;
+}
+img{
+    max-width: 100%;
+}
+.product-item p{
+    font-size: 17px;
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.footer{
+    background:#2c3e50 ;
+}
+.footer p{
+    margin-bottom: 0;
+  
+}
+.footer-left{}
+.footer a{
+text-decoration: none;
+color: #fff;
+margin-left: 15px;
+display: inline-block;
+}
+.footer-right{
+    text-align: right;
+}
